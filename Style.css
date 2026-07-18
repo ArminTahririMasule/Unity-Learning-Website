@@ -1,0 +1,48 @@
+.input-text
+{
+    border: 3px solid #ffd1ee;
+    border-radius: 10px;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+
+    padding: 20px;
+    /* border: yellow solid 10px; */
+
+    box-sizing: border-box;
+    /* background: url(./IMG_4708.PNG) cyan left 50px bottom 20px/cover border-box content-box fixed no-repeat; */
+    /* background: url(./IMG_4708.PNG) red 90px 112px/cover border-box content-box fixed no-repeat; */
+    /* background-size: cover;
+    background-image: url(./IMG_4708.PNG);
+    background-repeat: no-repeat;
+    background-color: rgb(214, 236, 255);
+    box-sizing: border-box;
+    background-clip: border-box;
+    background-origin: border-box; */
+
+    /* background: linear-gradient(to right, #4cdea4 35%, #6cbaff); */
+    background: #ff75c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cd93ff, #70e2ff, #9fff5b, #ffe83f, #ffa647, #ff75c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cd93ff, #70e2ff, #9fff5b, #ffe83f, #ffa647, #ff75c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    /* background-position: 100px -100px; */
+}
+
+.animated-button{
+    border: 0px;
+    color: #484848;
+    margin: 20px 10px;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+.red-background{
+    background: #ff6d6d;    
+}
+
+.green-background{
+    background: #b2ff88;
+}

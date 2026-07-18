@@ -1,0 +1,166 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+html
+{
+    background: greenyellow;
+}
+
+header
+{
+    background: red;
+}
+
+footer{
+    background-color: #f3ad3b;
+}
+
+.form
+{
+    border: 10px solid yellow;
+}
+
+/*
+تمام المنت هایی که کلاس special-text دارن
+*/
+.special-text
+{
+    color: blue;
+}
+
+/*
+تمام المنت های p
+*/
+p
+{
+    color: white;
+}
+
+/*
+header هایی که کلاس background-pink دارن
+*/
+header.background-pink{
+    background-color: rgb(255, 176, 244);
+}
+
+/*
+div هایی که فرزند header هستن
+*/
+header div{
+    padding: 10px 10px 10px 10px;
+}
+
+/*
+h1 هایی که فرزند div هستن که فرزند header هستن
+*/
+header div h1{
+    font-weight: bold;
+}
+
+/*
+header هایی که اتریبیوت href دارن
+*/
+header[href]{
+    color: white;
+}
+
+/*
+header هایی که اتریبیوت href دارن و مقدارش دقیقا example هست
+*/
+header[href="example"]{
+    color: red;
+}
+
+/*
+header هایی که اتریبیوت href دارن و مقدار middle داخل رشتشون هست
+*/
+header[href*="middle"]{
+    color: lime;
+}
+
+/*
+header هایی که اتریبیوت href دارن و مقدار middle به صورتی که به هیچ کلمه دیگه ای نچسبیده باشه هست
+*/
+header[href~="middle"]
+{
+    color: purple;
+}
+
+/*
+تمام header هایی که اتربیوت href دارن و آخر مقدار href, example هست
+*/
+header[href$="example"]{
+    font-weight: bold;
+}
+
+/*
+تمام span هایی که فرزند header هستن
+*/
+header span{
+    background-color: white;
+}
+
+/*
+تمام span هایی که مستقیما فرزند header هستن و والد دیگری ندارند
+*/
+header > span{
+    background-color: aqua;
+}
+
+/*
+اولین span بعد از </header>
+*/
+header + span{
+    background-color: violet;
+}
+
+/*
+برادر تمام المنت هایی که فرزند header هستن و کلاس item رو دارن و بعد از المنت کلاس item هستن
+*/
+header .item ~ span{
+    background-color: bisque;
+}
+
+li::before{
+    content: "Hey this is before";
+    color: red;
+}
+
+li::after{
+    content: "Hey this is after";
+    color: green;
+}
+
+a 
+{
+    font-size: 100%;
+    transition: 0.5s;
+}
+
+a:hover 
+{
+    font-size: 120%;
+}
+
+li{
+    background-color: yellow;
+    padding: 10px;
+
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet; */
+
+    border: 3px solid blueviolet;
+}
+
+/*
+    This is a random comment!
+*/
+
+.test{
+    font-weight: bold;
+}
