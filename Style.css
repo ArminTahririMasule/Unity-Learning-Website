@@ -23,9 +23,11 @@
     background-origin: border-box; */
 
     /* background: linear-gradient(to right, #4cdea4 35%, #6cbaff); */
-    background: #ff75c3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #cd93ff, #70e2ff, #9fff5b, #ffe83f, #ffa647, #ff75c3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #cd93ff, #70e2ff, #9fff5b, #ffe83f, #ffa647, #ff75c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #ff75c3;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #cd93ff, #70e2ff, #9fff5b, #ffe83f, #ffa647, #ff75c3);  Chrome 10-25, Safari 5.1-6 */
+    /*linear-gradient(to right, #cd93ff, #70e2ff, #9fff5b, #ffe83f, #ffa647, #ff75c3)*/
+    background:  linear-gradient(rgba(255, 0, 0, 0.5), rgba(0,0,0,0.3)) , url(TestImage.PNG) 0%, 10%/cover border-box content-box fixed no-repeat; /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+    /* background: url(./About-us.html) red 4px 2px/cover border-box content-box fixed no-repeat; */
 
     color: white;
     /* background-position: 100px -100px; */
@@ -45,4 +47,20 @@
 
 .green-background{
     background: #b2ff88;
+}
+
+.scale-up-animation{
+    width: 10%;
+    height: 15%;
+    transition: .2s;
+}
+
+.scale-up-animation:hover{
+    width: 11%;
+    height: 16%;
+    transition: .2s;
+}
+
+.test-image-filter{
+    filter: blur(1px) brightness(110%) contrast(150%) grayscale(5%);
 }
